@@ -8,17 +8,23 @@ import { Link } from 'react-router-dom'
 const Description = () => {
     return (
         <div className="pt-2 pb-4">
-            <div className="d-flex justify-content-end">
-                <div className="c edit">
-                    <Link to="/videos/edit/1" >
-                        <img style={{ width: "20px", marginRight: "5px" }} src={editImg} alt="edit" />
-                        <span> Edit</span>
-                    </Link>
+            <div className="d-flex justify-content-between">
+                <div>
+                    10k  views
                 </div>
-                <div className="ms-5  delete">
-                    <img style={{ width: "20px", marginRight: "5px" }} src={deleteImg} alt="edit" />
-                    <span>Delete</span>
+                <div className="d-flex">
+                    <div className="c edit">
+                        <Link to="/videos/edit/1" >
+                            <img style={{ width: "20px", marginRight: "5px" }} src={editImg} alt="edit" />
+                            <span> Edit</span>
+                        </Link>
+                    </div>
+                    <div className="ms-5  delete">
+                        <img style={{ width: "20px", marginRight: "5px" }} src={deleteImg} alt="edit" />
+                        <span>Delete</span>
+                    </div>
                 </div>
+
             </div>
             <h5 className="text-start mt-3">Vide0 title: VS Code Snippets - Boost your productivity with User Snippets </h5>
             <div className="row  border-bottom pb-2">

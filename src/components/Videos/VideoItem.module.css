@@ -12,8 +12,25 @@
     color: #E30E00 !important;
 }
 
+
+
+
+
 .videoItem:hover {
     scale: 1.06;
     cursor: pointer;
     z-index: 99;
+}
+
+.thumnail {
+    cursor: pointer;
+}
+
+
+.title:hover {
+    color: #E30E00;
+}
+
+.author:hover {
+    color: yellowgreen;
 }

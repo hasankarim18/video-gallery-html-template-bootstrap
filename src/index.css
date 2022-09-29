@@ -70,3 +70,7 @@ code {
   color: #E30E00 !important;
   cursor: pointer;
 }
+
+.home_thumb:hover .video_title {
+  color: #E30E00;
+}
